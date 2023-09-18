@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tair-coder/journaling-app-react/static/css/main.e95a8747.css",
+    "main.js": "/Tair-coder/journaling-app-react/static/js/main.6462d3ae.js",
+    "index.html": "/Tair-coder/journaling-app-react/index.html",
+    "static/media/close-btn.svg": "/Tair-coder/journaling-app-react/static/media/close-btn.d0715b34fa8328bff5a7f2c900038b0c.svg",
+    "static/media/search.svg": "/Tair-coder/journaling-app-react/static/media/search.a7798396b83be00d9bc194a3b4cb201f.svg",
+    "main.e95a8747.css.map": "/Tair-coder/journaling-app-react/static/css/main.e95a8747.css.map",
+    "main.6462d3ae.js.map": "/Tair-coder/journaling-app-react/static/js/main.6462d3ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e95a8747.css",
+    "static/js/main.6462d3ae.js"
+  ]
+}
