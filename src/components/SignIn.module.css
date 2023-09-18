@@ -1,0 +1,20 @@
+.size{
+    width: 550px;
+    height: 300px;
+    justify-content: center;
+    
+}
+.btn{
+    background: #BAE8E8;
+    text-align: center;
+    height: 64px;
+    width: 292px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.btn:hover{
+    background: #bae8e88c;
+    cursor: pointer;
+}

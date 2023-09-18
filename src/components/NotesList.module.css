@@ -1,0 +1,11 @@
+.content__note{
+    width: 550px;
+    border-radius: 33px;
+    padding: 33px 0 15px;       
+    margin-top: 15px;
+}
+@media (max-width: 781px) {
+    .content__note{
+        transform: scale(0.8);
+}
+}

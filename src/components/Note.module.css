@@ -1,0 +1,30 @@
+.note{
+    background: #BAE8E8;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    border-radius: 10px;
+    padding:0 36px 0 16px;
+    width: 392px;
+    margin-bottom: 15px;
+}
+.note__textcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.note__title{
+    font-weight: 600;
+    max-width: 170px;
+    text-align: left;
+}
+.note__date{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.note__desc{
+    font-size: 17px;
+    text-align: left;
+    max-width: 392px;
+}

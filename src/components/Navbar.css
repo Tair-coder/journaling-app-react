@@ -1,0 +1,146 @@
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: fixed;
+  width: 85%;
+  left: 0%;
+  /* active */
+  /* width: 85%; */
+  z-index: -3;
+}
+.btn_signout {
+  margin-left: 19px;
+  height: 41px;
+  width: 101px;
+  background: #fff;
+  border-radius: 66px;
+  border: none;
+}
+.btn_search_activate{
+  width: 45px;
+  height: 45px;
+  background: #e3f6f5;
+  border-radius: 66px;
+  border: none;
+  cursor: pointer;
+}
+.form_search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 45px;
+  width: 250px;  
+  justify-content: flex-end;
+  transition: all 0.5s ease-in;
+
+}
+.btn_search {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background: #bae8e8;
+  border-radius: 66px;
+  border: none;
+  cursor: pointer;
+  right: 0%;
+
+}
+.input_search {
+  height: 45px;
+  border-radius: 66px;
+  width: 250px;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  background: #E3F6F5;
+  transform-origin: right top;
+  font-weight: 600;
+  animation: seacrhinput 0.3s ease-in-out;
+  width: 34px;
+
+}
+.input_search.active{
+  animation: seacrhinput-active 0.3s ease-in-out;
+  width: 250px;
+
+}
+@keyframes seacrhinput {
+  
+  0%{
+    width: 250px;
+    
+  }
+  100%{
+    width: 34px;
+  }
+}
+@keyframes seacrhinput-active {
+  0%{
+    width: 34px;
+  }
+  100%{
+    width: 250px;
+  }
+}
+.close__btn{
+  z-index: -1;
+  position: absolute;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  left: 90%;
+  animation: closeBtn 0.5s ease-in-out;
+}
+.close__btn.active{
+  animation: closeBtn-active 0.5s ease-in-out;
+  left: 102%;
+
+
+}
+@keyframes closeBtn {
+  
+  0%{
+    left: 102%;
+    transform: rotate(0deg);
+  }
+  100%{
+    left: 90%;
+    transform: rotate(-360deg);
+
+  }
+}
+@keyframes closeBtn-active {
+  
+  0%{
+    transform: rotate(0);
+    left: 90%;
+
+    
+  }
+  100%{
+    transform: rotate(360deg);
+    left: 102%;
+  }
+}
+
+@media (max-width: 781px) {
+  .btn_signout {
+    margin-left: 5px;
+    width: 70px;
+  }
+  .navbar {
+    width: 100%;
+  }
+.form_search,.btn_search_activate {
+  transform: scale(0.7);
+}
+.input_search.active{
+  width: 170px;
+}
+.btn_search_activate{
+  margin-right: 30px;
+}
+}

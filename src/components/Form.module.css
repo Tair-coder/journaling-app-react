@@ -1,0 +1,52 @@
+.form{
+    height: 300px;
+    width: 550px;
+    padding-top: 33px;
+}
+.form_form{
+    display: flex;
+    flex-direction: column;
+    height: 251px;
+    width: 444px;
+    justify-content: space-between;
+}
+.input_title{
+    width: calc(100% - 30px);
+    height: 25px;
+    background: #E3F6F5;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.input_note{
+    width: calc(100% - 30px);
+    background: #E3F6F5;
+    border-radius: 10px;
+    height: 120px;
+    border:none;
+    outline:none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.submit{
+    background: #BAE8E8;
+    height: 37px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+@media (max-width: 781px) {
+    .form{
+        transform: scale(0.8);
+}
+}
